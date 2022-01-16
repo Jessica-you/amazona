@@ -34,7 +34,7 @@ export default function ProductScreen() {
           </ul>
         </div>
         <div className='rol-1'>
-          <div className='card card-ody'>
+          <div className='card card-body'>
             <ul>
               <li>
                 <div className='row'>
@@ -48,7 +48,7 @@ export default function ProductScreen() {
                   <div>
                     {product.countInStock>0 ? (<span className='success'>In stock</span>
                     ) :(
-                    <span className='error'>unavailable</span>)
+                    <span className='error'>Unavailable</span>)
                     } 
                   </div>
                 </div>
